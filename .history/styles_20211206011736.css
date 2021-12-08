@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: linear-gradient(to top,#f0f2f0 , #000C40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    color: #999;
+    min-height: 5vh;
+    text-align: center;
+    margin-top: 15px;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-input {
+    height: 2rem;
+    padding: .3rem;
+    font-size: 1rem;
+    border: none;
+    background: white;
+}
+
+.btn-add-item {
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    background: green;
+    color: white;
+}
+
+#item-txt {
+    height: 30px;
+    width: 220px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.plus-btn {
+    background-color: seagreen;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn-delete-all {
+    width: 80px;
+    background-color: crimson;
+
+}
+
+#divider {
+    width: 100vw;
+    height: 3px;
+    background-color: #7c90e6;
+    margin-top: 15px;
+}
+
+.container {
+    width: 100%;
+    padding-top: 20px;
+    
+}
+
+#items-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.list-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.item {
+    align-items: center;
+}
+
+li {
+    display: flex;
+    width: 250px;
+    height: 30px;
+    font-size: 14px;
+    background-color: aliceblue;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.btn-delete-item {
+    width: 30px;
+    margin-top: 5px;
+    background-color: maroon;
+    color: #fff;
+    
+}
+
+.far {
+    margin: 9px;
+
+}
+
+.fas {
+    margin: 9px;
+
+}
+
+.btn-done {
+    width: 30px;
+    border: none;
+    margin-top: 5px;
+    background-color: gray;
+    color: #555;
+    font-size: 14px;
+}
+
+.btn.btn-edit {
+    width: 30px;
+    margin-top: 5px;
+    background-color: rgb(194, 95, 29);
+    color: #fff;
+
+}
+

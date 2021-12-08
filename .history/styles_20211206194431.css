@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: linear-gradient(to top,#f0f2f0 , #000C40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    color: #999;
+    min-height: 5vh;
+    text-align: center;
+    margin-top: 15px;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-input {
+    height: 2rem;
+    width: 15rem;
+    padding: .3rem;
+    font-size: 1rem;
+    border: none;
+    background: white;
+}
+
+.btn-add-item {
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    outline: none;
+    background: green;
+    color: white;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.btn-add-item:hover {
+    background: darkslategray;
+
+}
+
+.btn-delete-all {
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    outline: none;
+    font-size: .9rem;
+    font-weight: bold;
+    background: red;
+    color: white;
+    cursor: pointer;
+    margin-left: 1.2rem;
+}
+
+.btn-delete-all:hover {
+    color: red;
+    background: white;
+}
+
+/* .btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+} */
+
+#divider {
+    width: 100vw;
+    height: 3px;
+    background-color: #7c90e6;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    padding-top: 20px;justify-content: center;
+    align-items: center;
+    
+}
+
+#items-list {
+    list-style-type: none;
+    min-width: 45%;
+    
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem;
+    background: white;
+    font-size: 1rem;
+
+}
+
+.list li {
+    flex: 1;
+}
+
+/* li {
+    display: flex;
+    width: 250px;
+    height: 30px;
+    font-size: 14px;
+    background-color: aliceblue;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
+
+.trash-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+
+.done-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: #555;
+    font-size: 1rem;
+}
+
+.btn.btn-edit {
+    width: 30px;
+    margin-top: 5px;
+    background-color: rgb(194, 95, 29);
+    color: #fff;
+
+}
+
